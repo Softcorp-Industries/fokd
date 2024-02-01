@@ -79,7 +79,7 @@ body {
 .missionStatement {
   margin: 5em auto;
   max-width: 500px;
-  width: 80%;
+  width: 90%;
   text-align: center;
 }
 .missionStatement p {
@@ -96,7 +96,7 @@ body {
 .missionSpiral img {
   display: block;
   margin: auto;
-  min-width: 250px;
+  width: 250px;
   max-height: 250px;
   border-radius: 50%;
   overflow: hidden;
@@ -104,7 +104,12 @@ body {
 
 .artWork .tile {
   margin: auto;
-  width: 300px;
+  width: 90%;
+  max-width: 300px;
+}
+.artWork .tile img {
+  display: block;
+  width: 100%;
 }
 
 .mediaLinks {
