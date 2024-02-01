@@ -15,8 +15,11 @@ body {
   }
 }
 .mainHeader {
-  margin: 1em;
+  margin: auto;
+  padding: 1em 0;
   text-align: center;
+  background-color: whitesmoke;
+  border-bottom: 2px solid black;
 }
 .mainHeader h1 {
   font-size: 1.75em;
