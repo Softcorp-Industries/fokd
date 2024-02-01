@@ -1,7 +1,7 @@
 .missionStatement{
     margin: 5em auto;
     max-width: 500px;
-    width: 80%;
+    width: 90%;
     text-align: center;
     p{
         line-height: 1.4;
@@ -16,7 +16,7 @@
     img{
         display: block;
         margin: auto;
-        min-width: 250px;
+        width: 250px;
         max-height: 250px;
         
         border-radius: 50%;
@@ -27,7 +27,12 @@
 .artWork {
     .tile{
         margin: auto;
-        width: 300px;
+        width: 90%;
+        max-width: 300px;
+        img{
+            display: block;
+            width: 100%;
+        }
     }
 }
 .mediaLinks{
