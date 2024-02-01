@@ -1,0 +1,44 @@
+.missionStatement{
+    margin: 5em auto;
+    max-width: 500px;
+    width: 80%;
+    text-align: center;
+    p{
+        line-height: 1.4;
+        letter-spacing: 1px;
+        margin-bottom: .25em;
+    }
+}
+.missionSpiral{
+    margin: 2em auto;
+    width: 100%;
+    border-radius: 50%;
+    img{
+        display: block;
+        margin: auto;
+        max-width: 250px;
+        width: 70%;
+        max-height: 250px;
+        
+        border-radius: 50%;
+        overflow: hidden;
+    }
+}
+
+.artWork {
+    .tile{
+        margin: auto;
+        width: 300px;
+    }
+}
+.mediaLinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    .mediaLink{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

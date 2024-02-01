@@ -4,27 +4,115 @@
   box-sizing: border-box;
 }
 
-header {
+body {
+  font-family: "roboto";
+  font-size: 16px;
+}
+
+@media screen and (min-width: 450px) {
+  body {
+    font-size: 20px;
+  }
+}
+.mainHeader {
   margin: 1em;
   text-align: center;
 }
-header h1 {
+.mainHeader h1 {
   font-size: 1.75em;
   font-family: "Rubik Doodle Shadow";
   letter-spacing: 3px;
   margin-left: -0.7em;
   margin-bottom: -1.5em;
 }
-header h1 span {
+.mainHeader h1 span {
   font-size: 1.5em;
 }
-header p {
+.mainHeader p {
   font-family: "Caveat", "cursive";
   font-weight: 700;
   font-size: 1.1em;
   letter-spacing: 0.1em;
 }
-header p span {
+.mainHeader p span {
   font-family: "Rubik Doodle Shadow";
   font-size: 3em;
+}
+
+.subHeader {
+  text-align: center;
+  margin-bottom: 3em;
+}
+.subHeader .montra {
+  font-family: "Rubik Doodle Shadow";
+}
+.subHeader .montra span {
+  font-size: 1.5em;
+}
+.subHeader p {
+  font-size: 1.5em;
+  font-family: "Caveat", "cursive";
+}
+
+.divider {
+  display: flex;
+  justify-content: center;
+  margin: 2em auto;
+}
+.divider img {
+  display: block;
+  width: 30%;
+}
+
+.mainFooter {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.missionStatement {
+  margin: 5em auto;
+  max-width: 500px;
+  width: 80%;
+  text-align: center;
+}
+.missionStatement p {
+  line-height: 1.4;
+  letter-spacing: 1px;
+  margin-bottom: 0.25em;
+}
+
+.missionSpiral {
+  margin: 2em auto;
+  width: 100%;
+  border-radius: 50%;
+}
+.missionSpiral img {
+  display: block;
+  margin: auto;
+  max-width: 250px;
+  width: 70%;
+  max-height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.artWork .tile {
+  margin: auto;
+  width: 300px;
+}
+
+.mediaLinks {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.mediaLinks .mediaLink {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=main.css.map */
