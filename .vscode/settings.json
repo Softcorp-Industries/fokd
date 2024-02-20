@@ -1,0 +1,17 @@
+{
+    "liveSassCompile.settings.generateMap": false,
+    "liveSassCompile.settings.formats": [
+
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "~/..",
+            "savePathReplacementPairs": null
+        }
+    ],
+    "liveSassCompile.settings.watchOnLaunch": true,
+    "liveSassCompile.settings.autoprefix": [
+
+    ],
+    "liveSassCompile.settings.forceBaseDirectory": null
+}
