@@ -1,7 +1,7 @@
 {
   "name": "fokd",
   "version": "1.0.0",
-  "description": "",
+  "description": "That's FOKD GitHub Repository",
   "main": "index.js",
   "scripts": {
     "deploy": "gh-pages -d dist"
