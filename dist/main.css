@@ -88,19 +88,19 @@ body {
 .missionStatement p {
   line-height: 1.4;
   letter-spacing: 1px;
-  margin-bottom: 0.25em;
+  margin: 1em auto;
 }
 
 .missionSpiral {
-  margin: 2em auto;
-  width: 100%;
+  margin: auto;
+  width: 150px;
   border-radius: 50%;
+  background-color: beige;
 }
 .missionSpiral img {
   display: block;
-  margin: auto;
-  width: 250px;
-  max-height: 250px;
+  width: 150px;
+  max-height: 150px;
   border-radius: 50%;
   overflow: hidden;
 }
